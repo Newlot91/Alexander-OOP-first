@@ -1,0 +1,11 @@
+D:\MyLessons\Alexander-OOP-first.git\MyLibDay10\bin\Debug\net5.0\MyLibDay10.deps.json
+D:\MyLessons\Alexander-OOP-first.git\MyLibDay10\bin\Debug\net5.0\MyLibDay10.dll
+D:\MyLessons\Alexander-OOP-first.git\MyLibDay10\bin\Debug\net5.0\ref\MyLibDay10.dll
+D:\MyLessons\Alexander-OOP-first.git\MyLibDay10\bin\Debug\net5.0\MyLibDay10.pdb
+D:\MyLessons\Alexander-OOP-first.git\MyLibDay10\obj\Debug\net5.0\MyLibDay10.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyLessons\Alexander-OOP-first.git\MyLibDay10\obj\Debug\net5.0\MyLibDay10.AssemblyInfoInputs.cache
+D:\MyLessons\Alexander-OOP-first.git\MyLibDay10\obj\Debug\net5.0\MyLibDay10.AssemblyInfo.cs
+D:\MyLessons\Alexander-OOP-first.git\MyLibDay10\obj\Debug\net5.0\MyLibDay10.csproj.CoreCompileInputs.cache
+D:\MyLessons\Alexander-OOP-first.git\MyLibDay10\obj\Debug\net5.0\MyLibDay10.dll
+D:\MyLessons\Alexander-OOP-first.git\MyLibDay10\obj\Debug\net5.0\ref\MyLibDay10.dll
+D:\MyLessons\Alexander-OOP-first.git\MyLibDay10\obj\Debug\net5.0\MyLibDay10.pdb
