@@ -1,22 +1,14 @@
 ﻿using System;
+using userCompanyList;
 
 namespace MyLibDay10
 {
-    public enum CompanyName
-    {
-        EPAM,
-        Yandex,
-        Amazon,
-        Walmart,
-        unemployed
-    }
-
     public class User
     {
-        public string name;
-        public string surname;
-        public int age;
-        public CompanyName companyName;
+        private string name;
+        private string surname;
+        private int age;
+        CompanyName companyName;
 
         public int Age
         {
@@ -69,3 +61,4 @@ namespace MyLibDay10
 
     }
 }
+ 

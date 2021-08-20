@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "userCompanyList/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/userCompanyList.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/userCompanyList.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "userCompanyList/1.0.0": {
+      "type": "project",
+      "path": "CompanyName/userCompanyList.csproj",
+      "msbuildProject": "CompanyName/userCompanyList.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "userCompanyList >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Александр\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\MyLessons\\Alexander-OOP-first.git\\MyLibDay10\\CompanyName\\userCompanyList.csproj": {
+              "projectPath": "D:\\MyLessons\\Alexander-OOP-first.git\\MyLibDay10\\CompanyName\\userCompanyList.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
