@@ -9,3 +9,7 @@ D:\MyLessons\Alexander-OOP-first.git\MyLibDay10\obj\Debug\net5.0\MyLibDay10.cspr
 D:\MyLessons\Alexander-OOP-first.git\MyLibDay10\obj\Debug\net5.0\MyLibDay10.dll
 D:\MyLessons\Alexander-OOP-first.git\MyLibDay10\obj\Debug\net5.0\ref\MyLibDay10.dll
 D:\MyLessons\Alexander-OOP-first.git\MyLibDay10\obj\Debug\net5.0\MyLibDay10.pdb
+D:\MyLessons\Alexander-OOP-first.git\MyLibDay10\obj\Debug\net5.0\MyLibDay10.csproj.AssemblyReference.cache
+D:\MyLessons\Alexander-OOP-first.git\MyLibDay10\bin\Debug\net5.0\userCompanyList.dll
+D:\MyLessons\Alexander-OOP-first.git\MyLibDay10\bin\Debug\net5.0\userCompanyList.pdb
+D:\MyLessons\Alexander-OOP-first.git\MyLibDay10\obj\Debug\net5.0\MyLibDay10.csproj.CopyComplete

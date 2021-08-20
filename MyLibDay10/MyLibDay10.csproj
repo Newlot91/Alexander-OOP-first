@@ -5,6 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="CompanyName\**" />
+    <EmbeddedResource Remove="CompanyName\**" />
+    <None Remove="CompanyName\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="CompanyName\userCompanyList.csproj" />
   </ItemGroup>
 

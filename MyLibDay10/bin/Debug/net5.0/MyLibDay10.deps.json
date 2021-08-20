@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {
       "MyLibDay10/1.0.0": {
+        "dependencies": {
+          "userCompanyList": "1.0.0"
+        },
         "runtime": {
           "MyLibDay10.dll": {}
+        }
+      },
+      "userCompanyList/1.0.0": {
+        "runtime": {
+          "userCompanyList.dll": {}
         }
       }
     }
   },
   "libraries": {
     "MyLibDay10/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "userCompanyList/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

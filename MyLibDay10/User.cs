@@ -6,10 +6,33 @@ namespace MyLibDay10
     public class User
     {
         private string name;
-        private string surname;
-        private int age;
-        CompanyName companyName;
+        public string Name 
+        {
+            get
+            {
+                return name;
+            }
+            set 
+            { 
+                name = value; 
+            } 
+        }
 
+        private string surname;
+        public string Surname
+        {
+            get 
+            {
+                return surname; 
+            }
+            set 
+            { 
+                surname = value; 
+            }
+        }
+
+
+        private int age;
         public int Age
         {
             set
@@ -27,7 +50,15 @@ namespace MyLibDay10
             {
                 return age;
             }
-        }                
+        }        
+
+        private CompanyName companyName;
+        public CompanyName CompanyName
+        {
+            get { return companyName; }
+            set { companyName = value; }
+        }
+
 
         /// <summary>
         /// 
@@ -35,7 +66,7 @@ namespace MyLibDay10
         /// <returns>Return sting with "User name:{name} {surname}.</returns>
         public string GetUserName()
         {
-            string user = "User name:" + name +" "+ surname;
+            string user = "User name:" + name + " " + surname;
             return user;
         }
 
@@ -58,7 +89,6 @@ namespace MyLibDay10
             string o = "User: " + name + ", Age: " + age + ".";
             return o;
         }
-
-    }
+    }        
 }
  
