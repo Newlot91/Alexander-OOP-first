@@ -1,5 +1,6 @@
 ﻿using System;
 using MyLibDay10;
+using userCompanyList;
 
 namespace Main
 {
@@ -8,34 +9,34 @@ namespace Main
         static void Main(string[] args)
         {
             User user1 = new User();
-            user1.name = "Alexander";
-            user1.surname = "Yermalovich";
-            user1.age = 30;
-            user1.companyName = CompanyName.unemployed;
+            user1.Name = "Alexander";
+            user1.Surname = "Yermalovich";
+            user1.Age = 30;
+            user1.CompanyName = CompanyName.unemployed;
 
             User user2 = new User();
-            user2.name = "Andrei";
-            user2.surname = "Yermalovich";
-            user2.age = 25;
-            user2.companyName = CompanyName.unemployed;
+            user2.Name = "Andrei";
+            user2.Surname = "Yermalovich";
+            user2.Age = 25;
+            user2.CompanyName = CompanyName.unemployed;
 
             User user3 = new User();
-            user3.name = "Anastasiya";
-            user3.surname = "Yermalovich";
-            user3.age = 28;
-            user3.companyName = CompanyName.Amazon;
+            user3.Name = "Anastasiya";
+            user3.Surname = "Yermalovich";
+            user3.Age = 28;
+            user3.CompanyName = CompanyName.Amazon;
 
             User user4 = new User();
-            user4.name = "Anna";
-            user4.surname = "Herasimenko";
-            user4.age = 24;
-            user4.companyName = CompanyName.EPAM;
+            user4.Name = "Anna";
+            user4.Surname = "Herasimenko";
+            user4.Age = 24;
+            user4.CompanyName = CompanyName.EPAM;
 
             User user5 = new User();
-            user5.name = "Kirill";
-            user5.surname = "Korzun";
-            user5.age = 25;
-            user5.companyName = CompanyName.EPAM;
+            user5.Name = "Kirill";
+            user5.Surname = "Korzun";
+            user5.Age = 25;
+            user5.CompanyName = CompanyName.EPAM;
 
             //Display all created users
             User[] users = { user1, user2, user3, user4, user5 };
@@ -65,7 +66,7 @@ namespace Main
                 for (int i = 0; i < users.Length; i++)
                 {
 
-                    if (users[i].companyName != CompanyName.EPAM)
+                    if (users[i].CompanyName != CompanyName.EPAM)
                     {
 
                         filteredUsers[countForFilter] = users[i];
