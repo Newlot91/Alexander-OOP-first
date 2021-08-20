@@ -2,7 +2,7 @@
 
 namespace userCompanyList
 {
-    enum CompanyName
+    public enum CompanyName
     {
         EPAM,
         Yandex,
